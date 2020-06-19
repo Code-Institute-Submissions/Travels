@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+
+
+
+.navbar-logo {
+  position: right;
+  margin-right: 2px;
+}
+
+.body {
+  background-color: blue;
+}
+
+
+.home {
+  background: url("asset/images/around-the-world.jpg") no-repeat bottom;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
