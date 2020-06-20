@@ -2,13 +2,41 @@
 
 
 
-.navbar-logo {
-  position: right;
-  margin-right: 2px;
+/*---------------navbar-style------*/
+
+.home-2-bg {
+  background: url("../images/around-the-world.jpg") no-repeat bottom;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+
+.nav a {
+  float: left;
+  color:#000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.jumbotron {
+    background-color: white;
+}
+
+.jumbotron h1 {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #000;
 }
 
 body {
-  background-color: red;
+  background-color: white;
 }
 
 
