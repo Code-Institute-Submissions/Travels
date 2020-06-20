@@ -8,8 +8,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css" type="text/css" /> 
-    <link rel="stylesheet" href="assets/js/map.js/css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css"> 
     <title>Travels</title>
 </head>
 
@@ -25,16 +24,16 @@
         <a class="nav-link" href="Attractions.html">Attractions</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="Browse Places.html">Browse Places</a>
+        <a class="nav-link" href="BrowsePlaces.html">Browse Places</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="About Us.html">About Us</a>
+        <a class="nav-link" href="AboutUs.html">About Us</a>
       </li>
     </div>
     </ul>
   </div>
 
-                <a href="Travels.html" class="nav-brand"><h1>Travels</h1></a>
+                <a href="Travels.html" class="nav-brand"><h3>Travels</h3></a>
             </div>
         </nav>
 </nav>
@@ -47,23 +46,20 @@
                 </div>
             </div>
 
-
+<section>
 <div class="container">
  <div class="home">
   <img src="assets/images/around-the-world.jpg" class="img-fluid" alt="world">
-</div>
-</div>
 
-<section>
-<div class="container">
+
 <div class="row">
             <div class="col-12">
                 <section class="callout jumbotron text-center">
                 <h3>Explore Beautiful Cities Around The World</h3>
 
                 <div class="btn-group">
-                    <button type="button" class="btn btn-danger">Africa</button>
-                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-dark">Africa</button>
+                    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
   </button>
                     <div class="dropdown-menu">
@@ -90,8 +86,8 @@
                 </div>
 
                 <div class="btn-group">
-                    <button type="button" class="btn btn-danger">Asia</button>
-                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-dark">Asia</button>
+                    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
   </button>
                     <div class="dropdown-menu">
@@ -104,8 +100,8 @@
                 </div>
 
                 <div class="btn-group">
-                    <button type="button" class="btn btn-danger">Australia</button>
-                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-dark">Australia</button>
+                    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
   </button>
                     <div class="dropdown-menu">
@@ -118,8 +114,8 @@
                 </div>
 
                 <div class="btn-group">
-                    <button type="button" class="btn btn-danger">Europe</button>
-                    <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <button type="button" class="btn btn-dark">Europe</button>
+                    <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
     <span class="sr-only">Toggle Dropdown</span>
   </button>
                     <div class="dropdown-menu">
@@ -130,6 +126,12 @@
                         <a class="dropdown-item" href="https://travel.usnews.com/rankings/best-europe-vacations/" target="_blank">Budapest</a>
                     </div>
                 </div>
+            </div>
+
+<div class="row jumbotron">
+            <div class="col-md-8">
+                <input id="pac-input" class="controls" type="text" placeholder="Search Box">
+                <div id="map"></div>
             </div>
 
 
@@ -230,14 +232,15 @@
 
 
 
-<script type="text/javascript" src="asset/js/maps.js"></script>
+
+
     <script src="https://kit.fontawesome.com/b46549430e.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBLRI2zPO9RDT1wO4kPjADzsyQkikqVCBM&callback=initMap"type="text/javascript"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAktIotmpQUXsNB4or3WFWcR_VjVVknRGM&callback=initAutocomplete"></script>
+    <script type="text/javascript" src="assets/js/maps.js"></script>
+
 
 </body>
-
-
 </html>

@@ -7,17 +7,17 @@
   margin-right: 2px;
 }
 
-.body {
-  background-color: blue;
+body {
+  background-color: red;
 }
 
 
-.home {
-  background: url("asset/images/around-the-world.jpg") no-repeat bottom;
-  min-height: 380px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
 
+#map {
+  height: 100%;
+  width: 80%;
+  margin-left: 50px;
+  margin-top: 15px;
+  margin-bottom: 500px;
+  border: 1px solid #000;
+}
