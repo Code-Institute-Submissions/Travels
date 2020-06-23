@@ -35,7 +35,7 @@
   </div>
   <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>GET THE BEST TRAVEL STORIES DELIVERED TO YOUR INBOX</i></p>
-                <a href="/login" class="btn btn--cta btn--red">Sign Up</a>
+                <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
 </nav>
 
 <div class="home-2-bg"></div>
@@ -48,6 +48,9 @@
                     <p class="lead"><strong>Do you want to relax, have fun with your mates, reconnect with a loved one, switch off from work, learn something new, get a tan or have an adventure? It’s easier to decide where you’re going when you know why you’re going there.<strong></p>
                 </div>
             </div>
+
+            <div class="image-1-bg"></div>
+    <div>
 
 <section>
 
@@ -145,31 +148,32 @@
 
 <div class="card-group">
   <div class="card">
-    <img src="assets/images/botswana.jpg" class="card-img-top" alt="botswana">
+    <img src="assets/images/santorini.jpg" class="card-img-top" alt="Santorini">
     <div class="card-body">
       <h5 class="card-title">EATING AND DRINKING</h5>
       <p class="card-text">The best thing to do in Santorini</p>
     </div>
   </div>
   <div class="card">
-    <img src="assets/images/greece.jpg" class="card-img-top" alt="greece">
+    <img src="assets/images/phuket.jpg" class="card-img-top" alt="phuket">
     <div class="card-body">
       <h5 class="card-title">PLACES TO STAY</h5>
       <p class="card-text">The best hotels in Phuket</p>
     </div>
   </div>
   <div class="card">
-    <img src="assets/images/jamaica.jpg" class="card-img-top" alt="jamaica">
+    <img src="assets/images/hotel.jpg" class="card-img-top" alt="hotel">
     <div class="card-body">
       <h5 class="card-title">PLACES TO STAY</h5>
-      <p class="card-text">The world's best hotes for under $200</p>
+      <p class="card-text">The world's best hotels for under $200</p>
     </div>
   </div>
 </div>
 
 </section>
 
-
+<div style="padding:10px;">
+<div class="container">  
 <footer class="footer-fluid bg-dark" style="color: #efefef;">
         <div class="footer">
             <div id="footer-text" class="row">
@@ -218,6 +222,37 @@
             </div>
         </div>
     </footer>
+
+<div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Sign Up To Travels</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="exampleInputEmail1">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="password">Password</label>
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                        </div>
+                        <div class="form-group">
+                            <label for="repeatPassword">Repeat Password</label>
+                            <input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+                        </div>
+                        <button type="submit" class="btn btn-success">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
 
 
     <script src="https://kit.fontawesome.com/b46549430e.js"></script>

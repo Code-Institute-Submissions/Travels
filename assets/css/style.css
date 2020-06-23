@@ -13,6 +13,14 @@
   
 }
 
+.image-1-bg {
+   background: url("../images/city.jpg") no-repeat bottom;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
 
 .nav a {
   float: left;

@@ -8,7 +8,16 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="assets/css/style.css"> 
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script type="text/javascript">
+        src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("user_QsnQgiW9eM9UeHyP0ehGB");
+      
+   })();
+</script> 
     <title>Travels</title>
 </head>
 
@@ -36,7 +45,7 @@
 
 <div class="d-none d-md-block">
                 <p class="navbar-text my-auto mr-2"><i>GET THE BEST TRAVEL STORIES DELIVERED TO YOUR INBOX</i></p>
-                <a href="/login" class="btn btn--cta btn--red">Sign Up</a>
+                <p><button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signUpModal">Sign Up!</button></p>
 
 </nav>
 
@@ -150,11 +159,11 @@
 
     </footer>
 
-    <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
+     <div class="modal" tabindex="-1" role="dialog" id="signUpModal">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title">Sign Up To Whiskey Drop!</h5>
+                    <h5 class="modal-title">Sign Up To Travels</h5>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -179,17 +188,15 @@
                 </div>
             </div>
         </div>
-    </div>
+    
 
-
-
-
- <script src="https://kit.fontawesome.com/b46549430e.js"></script>
+    <script src="https://kit.fontawesome.com/b46549430e.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAktIotmpQUXsNB4or3WFWcR_VjVVknRGM&callback=initAutocomplete"></script>
     <script type="text/javascript" src="assets/js/maps.js"></script>
+    <script src="assets/js/sendEmail.js"></script>
 
 </body>
 </html>
