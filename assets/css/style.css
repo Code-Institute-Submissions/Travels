@@ -24,6 +24,13 @@ body {
   background-size: cover; 
 };
 
+.home-3-bg {
+  background: url("../images/around-the-world.jpg") no-repeat bottom;
+  min-height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+};
 
 .nav a {
   float: left;
