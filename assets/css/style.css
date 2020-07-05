@@ -14,24 +14,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-};
-
-.home-2-bg  {
-  background: url("../images/around-the-world.jpg") no-repeat bottom;
-  min-height: 380px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover; 
-};
-
-.image-1 {
-  background: url("../images/japan.jpg") no-repeat bottom;
-  min-height: 380px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-};
-
+}
 .nav a {
   float: left;
   color:#000;
@@ -40,6 +23,7 @@ body {
   text-decoration: none;
   font-size: 17px;
 }
+
 .jumbotron h1 {
     color: #000;
     font-weight: bold;
@@ -126,7 +110,7 @@ body {
 .feature {
     color: black;
     background-color: whitesmoke;
-    border-color: #f05f40;
+
 }
 
 #map {
